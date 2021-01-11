@@ -32,16 +32,18 @@ import {RoutingDemo} from './ROUTING'
 import {RoutingDemoNested} from './ROUTING'
 import {BrowserRouter as Router} from 'react-router-dom'
 import NestedRoutes from './ROUTING/NestedRoutes/NestedRoutes'
-
+import CodeSplitComponent1 from './CODESPLITTING/CodeSplittingDemo'
+import CodeSplittingRouteDemo from "./CODESPLITTING/CodeSplittingRouteDemo";
 function App() {
   return (
     <Router>
       <div className="App">
+        {/*<CodeSplitComponent1/>*/}
+        <CodeSplittingRouteDemo/>
         {/* <RoutingDemo/> */}
         {/* <RoutingDemoNested/> */}
-        <NestedRoutes/>
+        {/*<NestedRoutes/>*/}
         {/* <ParentReducerHook/> */}
-
         {/* <ParentRef/> */}
         {/* { <ParentMemo/> } */}
         {/*<ParentForContext/>*/}
