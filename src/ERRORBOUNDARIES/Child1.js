@@ -7,7 +7,7 @@ const Child1 = ()=>{
     setCount(count + 1);
   };
   if (count === 1) {
-  const length =  arr[1].length
+  const length =  arr[1].length 
   }
   return (
     <div>
