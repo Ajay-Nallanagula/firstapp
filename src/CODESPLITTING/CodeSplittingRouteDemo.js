@@ -1,10 +1,7 @@
-import React, { Suspense } from "react";
-import NormalComponent from "./NormalComponent";
-import Fallback from "./FallBack";
+import React from "react";
 import Home from './Home'
 import Contact from './Contact'
-
-import { Route, Switch, Link, NavLink } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
 
 const CodeSplittingRouteDemo = () => {
   return (
